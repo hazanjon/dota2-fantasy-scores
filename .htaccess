@@ -1,2 +1,2 @@
 RewriteEngine on
-RewriteRule ^breakdown/([^/.]+)/?$ player_breakdown.php?id=$1 [L]
+RewriteRule ^(includes|sql-updates|generate_json\.php|update\.php) - [F,L,NC]

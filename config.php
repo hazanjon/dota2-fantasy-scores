@@ -2,11 +2,13 @@
 
 // dota2 api key (you can get_info it here - http://steamcommunity.com/dev/apikey)
 define ('API_KEY', 'C4590659E46D2ECCBEDD124D44647F03');
+define ('TI3_START', '2013-08-03');
 
 //The language to retrieve results in (see http://en.wikipedia.org/wiki/ISO_639-1 for the language codes (first two characters) and http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes for the country codes (last two characters))
 define ('LANGUAGE', 'en_us');
 
 error_reporting(0);
+error_reporting(E_ALL);
 
 set_time_limit(0);
 
