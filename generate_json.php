@@ -78,7 +78,7 @@
             if(empty($playerobjects[$account_id]->days[$day])){
                 $dayobject = new stdClass();
                 $dayobject->id = $day;
-                $dayobject->total = $day;
+                $dayobject->total = 0;
                 $dayobject->breakdown = array();
                 $playerobjects[$account_id]->days[$day] = $dayobject;
             }
